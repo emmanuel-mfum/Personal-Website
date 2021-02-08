@@ -1,0 +1,137 @@
+<%- include("partials/header") -%>
+
+<<h1>My Portfolio</h1>
+
+<div class="container-fluid">
+
+  <div class="row">
+
+    <div class="project">
+      <h2>Warzone game</h2>
+      <p> Technologies: <span style="font-weight:bold;">C++</span></p>
+      <p> Description: It was a school project for my Advanced Programming with C++ course (COMP 345). <br>
+
+        My teammates and I made this game using C++ and software design patterns that simulate those online Warzone games. <br>
+        The game is able to load a map, create players, and will "play against itself" using different strategies selected by the user. <br>
+        Although some features are incomplete (the ConquestFileReader class doesn't work properly), the game is still able to run on Microsoft Visual Studio, and perform battles, territorial switches and transfer armies.
+      </p>
+
+      <p>How to run this game? Download on your local machine all the ".h" and ".cpp" files present in the repository. <br>
+        Then, import all the header files in your local C++ project and run the game via the GameEngine.cpp file. <br>
+        A command prompt should appear and the user has just to follow the instructions.
+      </p>
+      <a href="https://github.com/emmanuel-mfum/COMP-345-Project" target="_blank">Link to the Github repository</a>
+    </div>
+
+  </div>
+
+  <hr>
+
+
+  <div class="row">
+
+
+    <div class="project">
+      <h2>Banking Record System</h2>
+      <p> Technologies: <span style="font-weight:bold;">C++</span></p>
+      <p> Description: Small personal project of mine to test my C++ skills. <br>
+        This console application attempts to simulate a banking record system where a user can create his own bank account, set up its balance
+        and password as well.  <br>The program runs but has some issues on pointers.
+      </p>
+      <p>How to run this program? Download on your local machine all the ".h" and ".cpp" files present in the repository. <br>
+        Then, import all the header files in your local C++ project and run the program via the Engine.cpp file. <br>
+        A command prompt should appear and the user has just to follow the instructions.
+      </p>
+      <a href="https://github.com/emmanuel-mfum/Banking-Record-System" target="_blank">Link to the Github repository</a>
+    </div>
+
+  </div>
+
+  <hr>
+
+  <div class="row">
+    <div class="project">
+      <h2>Secrets Web App</h2>
+      <p> Technologies: <span style="font-weight:bold;">JavaScript, Node.js/Express.js, MongoDB, Passport.js</span></p>
+      <p> Description: Web app clone of the popular app Whisper.. <br>
+        It allows the user to login via the OAuth protocol with a Google account or a Facebook account. <br>
+        The user can also create his own account by providing an email and a password. The website runs on Node.js with the database using MongoDB. <br>
+        Passport.js was used to handle the OAuth protocol. Once logged, in the user can share his secrets anonymously on the app. <br>
+        Once done, the user can simply log out. In order to do this project, I had to go through the documentation of Passport.js for the OAuth protocol. <br>
+        It was very interesting to delve into this standard of the industry when designing user sessions!
+      </p>
+      <a href="https://glacial-spire-75883.herokuapp.com/" target="_blank">Live Site</a>
+      <a href="https://github.com/emmanuel-mfum/Banking-Record-System" target="_blank">Link to the Github repository</a>
+    </div>
+  </div>
+
+  <hr>
+
+
+  <div class="row">
+    <div class="project">
+      <h2>Wiki API</h2>
+      <p> Technologies: <span style="font-weight:bold;">JavaScript, Node.js/Express.js, MongoDB</span></p>
+      <p> Description: The API runs locally (used via Postman) and uses a MongoDB database. The API interacts with a local MongoDB database and allows the user to perform CRUD operations on it.<br>
+        This project was build using Node.js/Express.js, MongoDB, Mongoose. Postman and Robo 3T were used to test it.
+      </p>
+      <a href="https://github.com/emmanuel-mfum/Wiki-API" target="_blank">Link to the Github repository</a>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="row">
+    <div class="project">
+      <h2>To-Do List App</h2>
+      <p> Technologies: <span style="font-weight:bold;">JavaScript, Node.js/Express.js, MongoDB</span></p>
+      <p>
+         Description: To-Do list web app that allows the user to write items he/she needs to remember. <br>
+        The web app allows to create custom lists by specifying a custom name list in the URL at the end of the path, ex: https://sheltered-temple-73922.herokuapp.com/Work) <br>
+        This web app runs on Node.js/Express.js and uses MongoDB for the database.
+
+      </p>
+      <a href="https://sheltered-temple-73922.herokuapp.com/" target="_blank">Live Site</a>
+      <a href=https://github.com/emmanuel-mfum/To-Do-List-app-v2" target="_blank">Link to the Github repository</a>
+    </div>
+
+  </div>
+
+  <hr>
+
+  <div class="row">
+    <div class="project">
+      <h2>Newsletter Signup</h2>
+      <p> Technologies: <span style="font-weight:bold;">JavaScript, Node.js/Express.js,MailChimp API</span></p>
+      <p>Description: Sign up page for a newsletter. The web app runs on Node.js and makes calls to the MailChimp API. <br>
+        The user has to provide his email, first name , and last name. If the registration is successful, the user will be lead to a Bootstrap jumbotron indicating that his subscription was successful. <br>
+        If not, the user will be lead to a Failure page, asking to either contact me or to try again (which brings the user back to the registration page).<br>
+      </p>
+      <a href="https://thawing-citadel-75545.herokuapp.com/" target="_blank">Live Site</a>
+      <a href="https://github.com/emmanuel-mfum/Newsletter-Signup" target="_blank">Link to the Github repository</a>
+    </div>
+
+  </div>
+
+  <hr>
+
+  <div class="row">
+    <div class="project">
+      <h2>Blog App Prototype</h2>
+      <p>Technologies: <span style="font-weight:bold;">JavaScript, Node.js/Express.js,MongoDB</span></p>
+      <p>
+        Description: Prototype for a blog app. <br>
+        The web app allows the user to publish posts that are stored on a MongoDB database.  <br>
+        To publish a post the user has to reach the route "/compose", which leads him/her to a page where he/she can then add the title and content of an entry. <br>
+        Once, the button "Publish" is pressed, a new object is instantiated using the title and content provided and stored into a database. <br>
+        The new post will then appear on the homepage.
+      </p>
+      <a href="https://infinite-reaches-09337.herokuapp.com/" target="_blank">Live Site</a>
+      <a href="https://github.com/emmanuel-mfum/blog-app-v2" target="_blank">Link to the Github repository</a>
+
+    </div>
+  </div>
+
+</div>
+
+<%- include("partials/footer") -%>
